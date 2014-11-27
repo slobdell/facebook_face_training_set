@@ -1,7 +1,12 @@
-import os
 import cv
 import cv2
+import os
+from PIL import Image
+import json
 import numpy as np
+import urllib2
+from StringIO import StringIO
+//Updated and Corrected for new PIL and CV
 
 CASCADE = "./haarcascade_frontalface_alt.xml"
 face_dir = "./face_root_directory/"
